@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogicaActivity">
+
+    <EditText
+        android:id="@+id/answerThirdRow"
+        android:layout_width="110dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:digits=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toEndOf="@+id/cel2"
+        app:layout_constraintTop_toBottomOf="@+id/answerSecondRow"
+        app:layout_constraintVertical_bias="0.143" />
+
+    <EditText
+        android:id="@+id/answerFourthRow"
+        android:layout_width="110dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toEndOf="@+id/cel2"
+        app:layout_constraintTop_toBottomOf="@+id/answerThirdRow"
+        app:layout_constraintVertical_bias="0.233" />
+
+    <TextView
+        android:id="@+id/cel1"
+        android:layout_width="27dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="392dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/t_value"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.229"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.846" />
+
+    <TextView
+        android:id="@+id/cel2"
+        android:layout_width="27dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="400dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/t_value"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/cel4"
+        android:layout_width="27dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="308dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/f_value"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cel2"
+        app:layout_constraintVertical_bias="0.964" />
+
+    <TextView
+        android:id="@+id/cel6"
+        android:layout_width="27dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="224dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/t_value"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cel4"
+        app:layout_constraintVertical_bias="0.96" />
+
+    <TextView
+        android:id="@+id/cel8"
+        android:layout_width="27dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="136dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/f_value"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cel6"
+        app:layout_constraintVertical_bias="0.962" />
+
+    <TextView
+        android:id="@+id/cel7"
+        android:layout_width="27dp"
+        android:layout_height="36dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/f_value"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.229"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cel5"
+        app:layout_constraintVertical_bias="0.275" />
+
+    <TextView
+        android:id="@+id/cel3"
+        android:layout_width="27dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="204dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/t_value"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.229"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cel1"
+        app:layout_constraintVertical_bias="0.337" />
+
+    <TextView
+        android:id="@+id/cel5"
+        android:layout_width="27dp"
+        android:layout_height="36dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/f_value"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.229"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cel3"
+        app:layout_constraintVertical_bias="0.174" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="59dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="104dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/a_b_value"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="153dp"
+        android:layout_height="45dp"
+        android:text="@string/conjunction_text"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.096" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="27dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="104dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/a_value"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.229"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="27dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="104dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/b_value"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.005"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/answerFirstRow"
+        android:layout_width="110dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toEndOf="@+id/cel2"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/answerSecondRow"
+        android:layout_width="110dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toEndOf="@+id/cel2"
+        app:layout_constraintTop_toBottomOf="@+id/answerFirstRow"
+        app:layout_constraintVertical_bias="0.101" />
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cel8" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
